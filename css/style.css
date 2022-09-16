@@ -239,20 +239,15 @@ main .enviar {
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
-main .boton-turno :hover {
+main .boton-contacto :hover {
   color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
-main .boton-turno {
+main .boton-contacto {
   text-align: center;
   display: flex;
   flex-direction: column; }
-
-main .boton2 :hover {
-  color: azure;
-  transform: scale(1.05) !important;
-  transition: 0.3s !important; }
 
 main .mapa {
   margin: 20px;

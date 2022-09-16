@@ -54,28 +54,19 @@ main {
     }
 
     .enviar {
-
         background-color: $color-oscuro;
         color: $color-claro ;
         @include btn-hover;
     }
 
-    .boton-turno :hover{
+    .boton-contacto :hover{
         @include btn-hover;
     }
-    .boton-turno{
+    .boton-contacto{
         text-align: center;
         display: flex;
         flex-direction: column;
     }
-    .boton2 :hover{
-        @include btn-hover;
-    }
-
-    
-    
-
-
 }
 
 
