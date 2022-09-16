@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;900&display=swap');
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;  */
+
+
+
+/* ANIMACION FONDO */
+
+body {
+    padding-top: 140px;
+    min-height: 100%;
+    background-image: linear-gradient(135deg,
+            #f7ecec, #ddddf8, #b4caf5, #9090da,
+            rgba(93, 86, 86, 0.53), #787893, #bd87ba, #f7bbd9);
+    background-size: 500%;
+    animation: fanimado 12s infinite;
+    background-color: #2f3b3f;
+    margin: 0;
+}
+
+
+
+
+@keyframes fanimado {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+header {
+
+   
+    .navbar-brand img {
+        display: flex;
+        width: 120px;
+    }
+
+    .navbar-brand :hover {
+        @include btn-hover
+    }
+
+    .nav-item :hover {
+        @include btn-hover
+    }
+
+    .nav-link {
+        color: $color-claro !important;
+    }
+
+    .btn-outline-success {
+        color:$color-claro !important;
+    }
+
+    .navbar-toggler {
+        color: $color-claro !important;
+    }
+
+    .navbar-toggler-icon {
+        color:$color-claro !important;
+        background-color:$color-claro !important;
+        border-radius: 3px;
+    }
+
+}
+
+footer {
+   
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.781);
+    background-position: center center;
+    background-size: 100%;
+}
+
+
+
+footer {
+    p {
+        text-align: center;
+        color: $color-claro(224, 234, 240);
+        font-weight: 800;
+    }
+
+    .nuestras-redes {
+        color: $color-claro;
+        padding: 30px 10px 10px 10px;
+        text-align: center;
+        align-items: center center;
+        font-weight: 800;
+        font-size: xx-large;
+    }
+
+    .redes {
+        padding: 10px 20px 40px 20px;
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes img{
+        height: 80px;
+        padding: 5px;
+    }
+
+    .redes :hover {
+        @include btn-hover
+    }
+
+
+    .boton-wpp {
+        border-radius: 25px;
+        padding: 10px 15px 40px 15px;
+        height: auto !important;
+        width: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .boton-wpp :hover {
+        @include btn-hover
+
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        color: #9ba4a8;
+        padding: 15px;
+        font-size: small;
+        
+        
+    }
+}
+
+main {
+
+    min-height: 80vh;
+    
+
+    .accordion-button{
+        color: $color-claro;
+        padding: 15px;
+
+    }
+
+    h1 {
+        font-family: 'Anton', sans-serif;
+
+    }
+
+    h1:hover {
+        @include btn-hover
+    }
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        color: $color-oscuro;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-claro;
+    }
+}

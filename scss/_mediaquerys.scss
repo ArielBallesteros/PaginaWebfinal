@@ -1,0 +1,197 @@
+
+@media (max-width: 2560px){
+
+    .boton-contacto{
+        padding:30px 35vw 30px 35vw
+    }
+
+    .boton-arriba{
+        padding:30px 35vw 30px 35vw
+    }
+
+
+    .accordion{
+        padding:200px 35vw 200px 35vw ;
+    }
+
+    .contenedor-form{
+        padding:200px 35vw 200px 35vw ;
+        
+
+    }
+}
+
+@media (max-width: 1750px){
+    .contenedor-form{
+        padding:100px 25vw 100px 25vw ;
+    }
+}
+
+
+@media (max-width: 1440px){
+    .accordion{
+        padding:200px 25vw 200px 25vw ;
+    }
+}
+
+
+
+@media (max-width: 1240px) {
+    .header {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .nav {
+        padding: 10px 0px;
+    }
+
+
+    .header img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 814px) {
+
+    .contenedor-form{
+        padding:80px 10vw 80px 10vw ;
+
+    }
+   
+
+    .accordion{
+        padding:200px 20vw 200px 20vw ;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .boton-contacto{
+        padding:20px 5vw 20px 5vw
+    }
+
+    .boton-arriba{
+        padding:20px 5vw 20px 5vw
+    }
+
+    .col-12 {
+        padding-left: 100px;
+    }
+}
+
+
+
+@media (max-width: 629px) {
+    .calendario img {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 612px) {
+
+    footer{
+        .redes img{
+            height: 55px;
+            padding: 5px;
+        }
+    
+
+    }
+    .contenedor-form{
+        padding: 50px 5vw 50px 5vw ;
+
+    }
+    
+}
+
+
+@media (max-width: 467px) {
+    .accordion{
+        padding:50px 10vw 50px 10vw ;
+    }
+}
+
+    
+
+@media (max-width: 436px) {
+
+    .contenedor-form{
+        padding: 50px 2vw 50px 2vw ;
+
+    }
+    .col-12 {
+        padding-left: 60px;
+    }
+
+    
+}
+
+@media (max-width: 410px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .formulario textarea {
+        width: 265px;
+    }
+}
+
+@media (max-width: 377px) {
+
+    .boton-contacto{
+        padding:5px 2vw 5px 2vw
+    }
+
+    .boton-arriba{
+        padding:5px 2vw 5px 2vw
+    }
+
+    .col-12 {
+        padding-left: 40px;
+    }
+
+    .mapa {
+        margin: none;
+        padding: none;
+        overflow: hidden;
+    }
+
+  
+}
+
+@media (max-width: 360px) {
+    
+    .accordion{
+        padding:50px 3vw 50px 3vw ;
+    }
+    
+    .formulario form {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        width: 70vw;
+    }
+
+    .formulario textarea {
+        width: 70vw;
+    }
+
+    .formulario input {
+        width: 70vw;
+    }
+
+    .col-12 {
+        padding-left: 10px;
+    }
+    
+  
+  
+}
+
+
+
+
+
+

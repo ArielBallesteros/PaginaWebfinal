@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* ANIMACION FONDO */
+
+body {
+    background-image: linear-gradient(135deg,
+            #f7ecec, #ddddf8, #b4caf5, #9090da,
+            rgba(93, 86, 86, 0.53), #787893, #bd87ba, #f7bbd9);
+    background-size: 500%;
+    animation: fanimado 12s infinite;
+}
+
+@keyframes fanimado {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.grid-container div :hover {
+    transform: scale(1.05);
+}
+
+
+
+/* NAVBAR */
+/* header */
+.header a,
+.header a:hover,
+.footer a:hover {
+    color: #75ABBC;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar-brand img {
+    display: flex;
+    width: 120px;
+}
+
+.navbar-brand :hover {
+    color: #b3c8f0 !important;
+    transform: scale(1.1) !important;
+    transition: 0.3s !important;
+}
+
+.nav-item :hover {
+    color: #b3c8f0 !important;
+    transform: scale(1.05) !important;
+}
+
+.nav-link {
+    color: azure !important;
+}
+
+.btn-outline-success {
+    color: azure !important;
+}
+
+.navbar-toggler {
+    color: azure !important;
+}
+
+.navbar-toggler-icon {
+    color: azure !important;
+    background-color: azure !important;
+    border-radius: 3px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #777a7e;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;900&display=swap');
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;  */
+
+/* FONTS */
+h1 {
+    font-family: 'Anton', sans-serif;
+
+}
+
+h1:hover {
+    color: rgb(53, 55, 57);
+    transition: .2s;
+    transform: skew(-45deg);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(208, 229, 242);
+}
+
+/* TITULOS */
+.titulos{
+    margin: 20px;
+    padding: 20px;
+    background-color: #071013a3;
+    color: azure;
+}
+
+.ubicacion{
+    color: azure;
+}
+
+
+
+
+/* CARROUSEL */
+.carousel-caption{
+    background-color: #07101382;
+    color: azure;
+}
+
+
+.mapa {
+    margin: 20px;
+    padding: 15px;
+    background-color: #071013ab;
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+textarea {
+    resize: none;
+}
+
+main {
+    min-height: 80vh;
+
+}
+
+/* galeria */
+.grid-container {
+    padding: 10px;
+    background-color: #0710134e;
+    margin: 15px auto;
+    max-width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+
+.grid-container div {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.grid-container img {
+    width: 400px;
+
+}
+
+/* BOTON ACORDEON */
+.accordion{
+    padding: 10px;
+    margin: 10px;
+
+}
+.--bs-accordion-btn-icon{
+    color: azure !important;
+    background-color: #071013 !important;
+}
+
+/* BOTON WHATSAPP  FLOTANTE*/
+
+.whatsapp img{
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center ;
+}
+
+.boton-wpp{
+    border-radius: 25px;
+    padding: 10px 15px 40px 15px;
+    height: auto !important;
+    width: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.boton-wpp :hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    border-color: green;
+
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0,0,0,0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0,0,0,0);
+
+    }
+}
+
+/* BOTON  barra ARRIBA */
+
+
+.boton-arriba :hover {
+
+    color: azure;
+    transform: scale(1.05);
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #071013;
+    color: azure !important;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 5px;
+
+}
+
+
+
+/* Tienda CARDS */
+
+.card-img-top img {
+    overflow: hidden;
+}
+
+.card-text {
+    color: #071013 !important;
+}
+
+.btn {
+    justify-content: center center !important;
+    align-items: center center !important;
+}
+
+.btn-primary {
+    background-color: hsl(200, 3%, 21%) !important;
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: #071013;
+    background-position: center center;
+    background-size: 100%;
+}
+
+p {
+    text-align: center;
+    color: rgb(224, 234, 240);
+    font-weight: 800;
+}
+
+.nuestras-redes {
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    align-items: center center;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.redes {
+    padding: 10px 15px 40px 15px;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes :hover {
+    transform: scale(1.05);
+}
+
+.formulario {
+    color: azure;
+    background-color:#071013b5;
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+}
+
+
+
+/* Media Querys */
+
+@media (max-width: 1240px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .nav {
+        padding: 10px 0px;
+    }
+
+
+    .header img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 814px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
+
+
+@media (max-width: 760px) {
+  .col-12{
+    padding-left: 100px;
+  }
+
+
+}
+
+
+
+@media (max-width: 629px) {
+    .calendario img {
+        width: 70vw;
+    }
+
+
+
+}
+
+@media (max-width: 612px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 467px) {
+    .grid-container div {
+        width: 80%;
+        height: 80%;
+        overflow: hidden;
+        padding-left: 10px;
+    }
+
+    .grid-container img {
+        width: 300px;
+    }
+
+    .redes img {
+        padding-left: 10px;
+        width: 80%;
+    }
+    .boton-wpp img{
+        padding-left: 20px;
+        width: 80%;
+    }
+}
+@media (max-width: 436px) {
+    .col-12{
+      padding-left: 60px;
+    }
+}
+
+@media (max-width: 410px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .grid-container div {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .grid-container img {
+        width: 250px;
+        
+    }
+
+    .formulario textarea{
+        width: 265px;
+    }
+
+}
+
+@media (max-width: 377px) {
+    .col-12{
+      padding-left: 40px;
+    }
+    .mapa {
+        margin: none;
+        padding: none;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 360px) {
+    .formulario form {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        width: 70vw;
+    }
+
+    .formulario textarea {
+        width: 70vw;
+    }
+
+    .formulario input {
+        width: 70vw;
+    }
+    .col-12{
+        padding-left: 10px;
+      }
+  }
+

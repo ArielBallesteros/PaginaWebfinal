@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+/* FONTS */
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;  */
+/* ANIMACION FONDO */
+body {
+  padding-top: 140px;
+  min-height: 100%;
+  background-image: linear-gradient(135deg, #f7ecec, #ddddf8, #b4caf5, #9090da, rgba(93, 86, 86, 0.53), #787893, #bd87ba, #f7bbd9);
+  background-size: 500%;
+  animation: fanimado 12s infinite;
+  background-color: #2f3b3f;
+  margin: 0; }
+
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+header .navbar-brand img {
+  display: flex;
+  width: 120px; }
+
+header .navbar-brand :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+header .nav-item :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+header .nav-link {
+  color: azure !important; }
+
+header .btn-outline-success {
+  color: azure !important; }
+
+header .navbar-toggler {
+  color: azure !important; }
+
+header .navbar-toggler-icon {
+  color: azure !important;
+  background-color: azure !important;
+  border-radius: 3px; }
+
+footer {
+  margin-top: auto;
+  background-color: rgba(0, 0, 0, 0.781);
+  background-position: center center;
+  background-size: 100%; }
+
+footer p {
+  text-align: center;
+  color: azure 224, 234, 240;
+  font-weight: 800; }
+
+footer .nuestras-redes {
+  color: azure;
+  padding: 30px 10px 10px 10px;
+  text-align: center;
+  align-items: center center;
+  font-weight: 800;
+  font-size: xx-large; }
+
+footer .redes {
+  padding: 10px 20px 40px 20px;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer .redes img {
+  height: 80px;
+  padding: 5px; }
+
+footer .redes :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+footer .boton-wpp {
+  border-radius: 25px;
+  padding: 10px 15px 40px 15px;
+  height: auto !important;
+  width: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  flex-direction: column; }
+
+footer .boton-wpp :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+footer .copyright {
+  display: flex;
+  flex-direction: column;
+  color: #9ba4a8;
+  padding: 15px;
+  font-size: small; }
+
+main {
+  min-height: 80vh; }
+  main .accordion-button {
+    color: azure;
+    padding: 15px; }
+  main h1 {
+    font-family: 'Anton', sans-serif; }
+  main h1:hover {
+    color: azure;
+    transform: scale(1.05) !important;
+    transition: 0.3s !important; }
+  main h2 {
+    font-family: 'Roboto', sans-serif; }
+  main h1,
+  main h2 {
+    text-align: center;
+    color: black; }
+  main a {
+    text-decoration: none;
+    color: azure; }
+
+main .titulos {
+  border-radius: 5px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.632);
+  margin: 20px;
+  padding: 20px;
+  background-color: #071013a3;
+  color: azure; }
+
+main .ubicacion {
+  color: azure; }
+
+main .grid-container {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.594);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%; }
+
+main .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px; }
+
+main .gallery img {
+  width: 100%; }
+
+main .grid-container div :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s; }
+
+main .boton-arriba :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+main .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #071013;
+  color: azure !important;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  margin: 30px;
+  border-radius: 5px; }
+
+main .formulario {
+  color: azure;
+  background-color: #071013b5;
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.632);
+  border-radius: 5px; }
+
+main .formulario input {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center center;
+  align-items: center center;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-content: center; }
+
+main .formulario textarea {
+  border-radius: 5px;
+  width: 100%; }
+
+main .formulario label {
+  display: flex;
+  justify-content: center center;
+  align-items: center center;
+  width: auto;
+  height: auto;
+  text-align: center; }
+
+main .form {
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+main .form :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s; }
+
+main .enviar {
+  background-color: black;
+  color: azure;
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+main .boton-turno :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+main .boton-turno {
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+main .boton2 :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+main .mapa {
+  margin: 20px;
+  padding: 15px;
+  background-color: #071013ab;
+  display: flex;
+  align-items: center center;
+  justify-content: center;
+  padding: 15px; }
+
+main .boton-contacto :hover {
+  color: azure;
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
+main .carousel-caption {
+  font-size: large;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.473); }
+
+@media (max-width: 2560px) {
+  .boton-contacto {
+    padding: 30px 35vw 30px 35vw; }
+  .boton-arriba {
+    padding: 30px 35vw 30px 35vw; }
+  .accordion {
+    padding: 200px 35vw 200px 35vw; }
+  .contenedor-form {
+    padding: 200px 35vw 200px 35vw; } }
+
+@media (max-width: 1750px) {
+  .contenedor-form {
+    padding: 100px 25vw 100px 25vw; } }
+
+@media (max-width: 1440px) {
+  .accordion {
+    padding: 200px 25vw 200px 25vw; } }
+
+@media (max-width: 1240px) {
+  .header {
+    flex-direction: column;
+    padding: 10px 0px; }
+  .nav {
+    padding: 10px 0px; }
+  .header img {
+    height: 100px; } }
+
+@media (max-width: 814px) {
+  .contenedor-form {
+    padding: 80px 10vw 80px 10vw; }
+  .accordion {
+    padding: 200px 20vw 200px 20vw; } }
+
+@media (max-width: 760px) {
+  .boton-contacto {
+    padding: 20px 5vw 20px 5vw; }
+  .boton-arriba {
+    padding: 20px 5vw 20px 5vw; }
+  .col-12 {
+    padding-left: 100px; } }
+
+@media (max-width: 629px) {
+  .calendario img {
+    width: 70vw; } }
+
+@media (max-width: 612px) {
+  footer .redes img {
+    height: 55px;
+    padding: 5px; }
+  .contenedor-form {
+    padding: 50px 5vw 50px 5vw; } }
+
+@media (max-width: 467px) {
+  .accordion {
+    padding: 50px 10vw 50px 10vw; } }
+
+@media (max-width: 436px) {
+  .contenedor-form {
+    padding: 50px 2vw 50px 2vw; }
+  .col-12 {
+    padding-left: 60px; } }
+
+@media (max-width: 410px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    width: 80%; }
+  .formulario textarea {
+    width: 265px; } }
+
+@media (max-width: 377px) {
+  .boton-contacto {
+    padding: 5px 2vw 5px 2vw; }
+  .boton-arriba {
+    padding: 5px 2vw 5px 2vw; }
+  .col-12 {
+    padding-left: 40px; }
+  .mapa {
+    margin: none;
+    padding: none;
+    overflow: hidden; } }
+
+@media (max-width: 360px) {
+  .accordion {
+    padding: 50px 3vw 50px 3vw; }
+  .formulario form {
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    width: 70vw; }
+  .formulario textarea {
+    width: 70vw; }
+  .formulario input {
+    width: 70vw; }
+  .col-12 {
+    padding-left: 10px; } }

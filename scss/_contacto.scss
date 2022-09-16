@@ -1,0 +1,82 @@
+main {
+
+    .formulario {
+        color: azure;
+        background-color: #071013b5;
+        position: relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.632);
+        border-radius: 5px;
+    }
+
+    .formulario input {
+        border-radius: 5px;
+        display: flex;
+        justify-content: center center;
+        align-items: center center;
+        width: auto;
+        height: auto;
+        text-align: center;
+        align-content: center;
+    }
+
+    .formulario textarea {
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .formulario label {
+        display: flex;
+        justify-content: center center;
+        align-items: center center;
+        width: auto;
+        height: auto;
+        text-align: center;
+
+    }
+
+    .form {
+        align-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form :hover{
+        @include grid-hover
+    }
+
+    .enviar {
+
+        background-color: $color-oscuro;
+        color: $color-claro ;
+        @include btn-hover;
+    }
+
+    .boton-turno :hover{
+        @include btn-hover;
+    }
+    .boton-turno{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .boton2 :hover{
+        @include btn-hover;
+    }
+
+    
+    
+
+
+}
+
+
+

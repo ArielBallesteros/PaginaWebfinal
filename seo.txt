@@ -1,0 +1,33 @@
+1- Agregue etiquetas keywords en todos los HTML:
+ index: tattoos, arte, tattuajes, tattoo, design, tattuaje, diseño, diseños, ink,
+
+ contacto:contacto, turno, contactanos, mensaje, diseño, tattoo, Ragnar
+
+ tienda:tienda, crema, tattoos, ink, tinta, tintas, maquinas tattoo, cremas, post tattoo,
+
+ turnos:tattoos, turno, turnos, tattuajes, ragnar, arte, art, faq,
+
+ ubicacion:ubicacion, mapa, maps, tattoos, Mataderos, Argentina, buenos aires,
+
+
+-----------------------------------------------------------------------------------------
+
+
+2 Agregue description en todos los HTML:
+
+ index:"Ragnar Tattoo Studio es un studio de tattuajes, diseño y arte."
+
+ contacto:"Contactate con nosotros, tu proximo tattoo te espera"
+  
+ tienda:"Encontra en nuestra tienda todo lo que necesites para tu Tattoo "
+  
+ turnos:"Agenda tu turno hoy mismo con nuestros profesionales"
+
+ ubicacion:"Nos ubicamos en el Barrio Porteño de Mataderos."
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+3 Agrege el sitemap.xml al proyecto

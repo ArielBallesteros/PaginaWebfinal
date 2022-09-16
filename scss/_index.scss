@@ -1,0 +1,66 @@
+
+
+main {
+    
+    .titulos {
+        @include box-theme;
+        margin: 20px;
+        padding: 20px;
+        background-color: #071013a3;
+        color: $color-claro;
+    }
+
+    .ubicacion {
+        color: $color-claro;
+    }
+
+    .grid-container {
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.594);
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 8%;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap:30px;
+    }
+    .gallery img{
+        width: 100%;
+    }
+
+
+
+ 
+    .grid-container div :hover {
+       @include grid-hover
+    }
+
+
+
+
+    .boton-arriba :hover {
+        @include btn-hover
+    }
+
+    .boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #071013;
+        color: $color-claro !important;
+        width: auto;
+        height: auto;
+        padding: 15px;
+        margin: 30px;
+        border-radius: 5px;
+
+    }
+
+}
+
