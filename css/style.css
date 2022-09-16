@@ -13,7 +13,7 @@ font-family: 'Roboto', sans-serif;  */
 body {
   padding-top: 140px;
   min-height: 100%;
-  background-image: linear-gradient(135deg, #f7ecec, #ddddf8, #b4caf5, #9090da, rgba(93, 86, 86, 0.53), #787893, #bd87ba, #f7bbd9);
+  background-image: linear-gradient(135deg, #f2dbdb, #c4c4ee, #90aadd, #8181e5, rgba(117, 33, 102, 0.53), #985bbc, #d079cb, #e6b9d0);
   background-size: 500%;
   animation: fanimado 12s infinite;
   background-color: #2f3b3f;
@@ -116,6 +116,24 @@ footer .copyright {
 
 main {
   min-height: 80vh; }
+  main .titulo1 {
+    background-image: linear-gradient(135deg, #f2dbdb, #c4c4ee, #90aadd, #8181e5, rgba(117, 33, 102, 0.53), #985bbc, #d079cb, #e6b9d0);
+    background-size: 500%;
+    animation: fanimado 12s infinite;
+    background-color: #2f3b3f;
+    margin: 0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.632); }
+
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   main .accordion-button {
     color: azure;
     padding: 15px; }
@@ -270,9 +288,9 @@ main .carousel-caption {
 
 @media (max-width: 2560px) {
   .boton-contacto {
-    padding: 30px 35vw 30px 35vw; }
+    padding: 80px 35vw 80px 35vw; }
   .boton-arriba {
-    padding: 30px 35vw 30px 35vw; }
+    padding: 80px 35vw 80px 35vw; }
   .accordion {
     padding: 200px 35vw 200px 35vw; }
   .contenedor-form {
@@ -280,7 +298,11 @@ main .carousel-caption {
 
 @media (max-width: 1750px) {
   .contenedor-form {
-    padding: 100px 25vw 100px 25vw; } }
+    padding: 100px 25vw 100px 25vw; }
+  .boton-contacto {
+    padding: 80px 25vw 80px 25vw; }
+  .boton-arriba {
+    padding: 80px 25vw 80px 25vw; } }
 
 @media (max-width: 1440px) {
   .accordion {

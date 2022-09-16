@@ -2,11 +2,11 @@
 @media (max-width: 2560px){
 
     .boton-contacto{
-        padding:30px 35vw 30px 35vw
+        padding:80px 35vw 80px 35vw ;
     }
 
     .boton-arriba{
-        padding:30px 35vw 30px 35vw
+        padding:80px 35vw 80px 35vw ;
     }
 
 
@@ -24,6 +24,14 @@
 @media (max-width: 1750px){
     .contenedor-form{
         padding:100px 25vw 100px 25vw ;
+    }
+
+    .boton-contacto{
+        padding:80px 25vw 80px 25vw ;
+    }
+
+    .boton-arriba{
+        padding:80px 25vw 80px 25vw ;
     }
 }
 
@@ -58,8 +66,6 @@
         padding:80px 10vw 80px 10vw ;
 
     }
-   
-
     .accordion{
         padding:200px 20vw 200px 20vw ;
     }
@@ -70,11 +76,9 @@
     .boton-contacto{
         padding:20px 5vw 20px 5vw
     }
-
     .boton-arriba{
         padding:20px 5vw 20px 5vw
     }
-
     .col-12 {
         padding-left: 100px;
     }
@@ -95,12 +99,9 @@
             height: 55px;
             padding: 5px;
         }
-    
-
     }
     .contenedor-form{
         padding: 50px 5vw 50px 5vw ;
-
     }
     
 }
