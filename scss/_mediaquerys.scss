@@ -111,6 +111,10 @@
     .accordion{
         padding:50px 10vw 50px 10vw ;
     }
+    .mapa{
+        margin: 5px;
+        padding: 5px;
+    }
 }
 
     
@@ -153,16 +157,17 @@
         padding-left: 40px;
     }
 
-    .mapa {
-        margin: none;
-        padding: none;
-        overflow: hidden;
-    }
+    
 
   
 }
 
 @media (max-width: 360px) {
+    .mapa{
+        padding: none !important;
+        margin: none !important;
+        overflow: hidden;
+    }
     
     .accordion{
         padding:50px 3vw 50px 3vw ;

@@ -141,6 +141,7 @@ footer {
 main {
 
     .titulo1{
+        border-color:$color-claro;
         @include titulos;
         padding:20px;
         margin: 20px;
@@ -173,7 +174,6 @@ main {
     h2 {
         text-align: center;
         color: $color-oscuro;
-
     }
 
     a {
