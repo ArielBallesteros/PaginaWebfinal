@@ -46,7 +46,8 @@ main {
 
 
     .boton-arriba :hover {
-        @include btn-hover
+        @include btn-hover;
+        background-color: rgba(0, 255, 255, 0.322);
     }
 
     .boton {
