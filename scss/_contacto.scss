@@ -4,7 +4,7 @@ main {
         color: azure;
         background-color: #071013b5;
         position: relative;
-        width: auto;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -15,7 +15,8 @@ main {
     }
 
     .formulario textarea{
-        width: auto;
+        width: 100%;
+        border-radius: 5px;
     }
 
     .formulario input {
@@ -29,10 +30,7 @@ main {
         align-content: center;
     }
 
-    .formulario textarea {
-        border-radius: 5px;
-        width: 100%;
-    }
+    
 
     .formulario label {
         display: flex;

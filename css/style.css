@@ -32,12 +32,10 @@ header .navbar-brand img {
   width: 120px; }
 
 header .navbar-brand :hover {
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
 header .nav-item :hover {
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
@@ -87,7 +85,6 @@ footer .redes img {
   padding: 5px; }
 
 footer .redes :hover {
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
@@ -103,7 +100,6 @@ footer .boton-wpp {
   flex-direction: column; }
 
 footer .boton-wpp :hover {
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
@@ -141,7 +137,6 @@ main {
   main h1 {
     font-family: 'Anton', sans-serif; }
   main h1:hover {
-    color: azure;
     transform: scale(1.05) !important;
     transition: 0.3s !important; }
   main h2 {
@@ -188,10 +183,10 @@ main .grid-container div :hover {
   transition: 0.3s; }
 
 main .boton-arriba :hover {
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important;
-  background-color: rgba(0, 255, 255, 0.322); }
+  background-color: rgba(0, 255, 255, 0.322);
+  border: 5px solid #0710136d; }
 
 main .boton {
   display: flex;
@@ -209,7 +204,7 @@ main .formulario {
   color: azure;
   background-color: #071013b5;
   position: relative;
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -219,7 +214,8 @@ main .formulario {
   border-radius: 5px; }
 
 main .formulario textarea {
-  width: auto; }
+  width: 100%;
+  border-radius: 5px; }
 
 main .formulario input {
   border-radius: 5px;
@@ -230,10 +226,6 @@ main .formulario input {
   height: auto;
   text-align: center;
   align-content: center; }
-
-main .formulario textarea {
-  border-radius: 5px;
-  width: 100%; }
 
 main .formulario label {
   display: flex;
@@ -258,12 +250,10 @@ main .form :hover {
 main .enviar {
   background-color: black;
   color: azure;
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
 main .boton-contacto :hover {
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 
@@ -279,7 +269,6 @@ main .mapa {
   justify-content: center; }
 
 main .boton-contacto :hover {
-  color: azure;
   transform: scale(1.05) !important;
   transition: 0.3s !important; }
 

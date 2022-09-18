@@ -48,6 +48,7 @@ main {
     .boton-arriba :hover {
         @include btn-hover;
         background-color: rgba(0, 255, 255, 0.322);
+        border:5px solid #0710136d;
     }
 
     .boton {
@@ -63,6 +64,7 @@ main {
         border-radius: 5px;
 
     }
+    
 
 }
 
