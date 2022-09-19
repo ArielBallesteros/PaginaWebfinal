@@ -341,11 +341,17 @@ main .carousel-caption {
     width: 70vw; } }
 
 @media (max-width: 612px) {
+  main .titulo1 {
+    padding: 15px;
+    margin: 15px; }
+  main .titulos {
+    padding: 15px;
+    margin: 15px; }
   footer .redes img {
     height: 55px;
     padding: 5px; }
   .contenedor-form {
-    padding: 50px 5vw 50px 5vw; } }
+    padding: 10px 5vw 50px 5vw; } }
 
 @media (max-width: 467px) {
   main .mapa {
@@ -356,7 +362,7 @@ main .carousel-caption {
 
 @media (max-width: 436px) {
   .contenedor-form {
-    padding: 50px 2vw 50px 2vw; }
+    padding: 5px 2vw 20px 2vw; }
   .col-12 {
     padding-left: 60px; } }
 
