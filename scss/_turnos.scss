@@ -3,4 +3,9 @@ main{
     .boton-contacto :hover{
    @include btn-hover
 }
+.button.bg text{
+    
+    color: $color-claro;
+    background-color: $color-claro;
+}
 }
