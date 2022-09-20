@@ -30,17 +30,40 @@ body {
 
 
 header {
-
-   
-    .navbar-brand img {
+    .navbar-brand p{
+        font-size: larger;
+        margin:0px;
+        padding: 10px;
         display: flex;
-        width: 120px;
+        align-items: center;
+        justify-content: center;
+        color:$color-claro !important;
     }
-
-    .navbar-brand :hover {
+    .navbar-brand p :hover{
         @include btn-hover
     }
 
+    .navbar-brand img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+    }
+
+    .navbar-brand{
+        margin: 0px;
+        color:$color-claro !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-brand :hover{
+        @include btn-hover;
+    }
+
+   
+   
     .nav-item :hover {
         @include btn-hover
     }
@@ -66,7 +89,6 @@ header {
 }
 
 footer {
-   
     margin-top: auto;
     background-color: rgba(0, 0, 0, 0.781);
     background-position: center center;

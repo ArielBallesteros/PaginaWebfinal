@@ -27,9 +27,31 @@ body {
   100% {
     background-position: 0% 50%; } }
 
+header .navbar-brand p {
+  font-size: larger;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure !important; }
+
+header .navbar-brand p :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s !important; }
+
 header .navbar-brand img {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 120px; }
+
+header .navbar-brand {
+  margin: 0px;
+  color: azure !important;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 header .navbar-brand :hover {
   transform: scale(1.05) !important;
@@ -382,6 +404,27 @@ main .button.bg text {
     padding-left: 40px; } }
 
 @media (max-width: 360px) {
+  .carousel {
+    padding-top: 80px; }
+  .carousel-control-next {
+    padding-top: 80px; }
+  .carousel-control-prev {
+    padding-top: 80px; }
+  .carousel-indicators {
+    padding-top: 80px; }
+  .navbar-toggler {
+    margin: 10px;
+    padding: 10px; }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .accordion {
     padding: 50px 3vw 50px 3vw; }
   .formulario form {
