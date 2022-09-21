@@ -176,7 +176,6 @@
 }
 
 @media (max-width: 377px) {
-
     .boton-contacto{
         padding:5px 2vw 5px 2vw
     }
@@ -195,6 +194,9 @@
 }
 
 @media (max-width: 360px) {
+    .contactos{
+        margin-top: 90px;
+    }
     .carousel{
         padding-top: 80px;
     }

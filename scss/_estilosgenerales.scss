@@ -23,17 +23,11 @@ body {
     @include titulos
 }
 
-
-
-
-
-
-
 header {
     .navbar-brand p{
         font-size: larger;
         margin:0px;
-        padding: 10px;
+        padding: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -60,6 +54,10 @@ header {
 
     .navbar-brand :hover{
         @include btn-hover;
+    }
+
+    .nav-item{
+        margin-top: 5px;
     }
 
    
