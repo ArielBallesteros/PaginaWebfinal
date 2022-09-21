@@ -39,8 +39,8 @@ main {
 
  
     .grid-container div :hover {
-       @include grid-hover
-       @include box-theme
+       @include grid-hover;
+       @include box-theme;
     }
 
 

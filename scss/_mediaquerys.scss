@@ -7,7 +7,7 @@
     }
 
     .boton-contacto{
-        padding:80px 35vw 80px 35vw ;
+        padding:20px 35vw 80px 35vw ;
     }
 
     .boton-arriba{
@@ -20,7 +20,7 @@
     }
 
     .contenedor-form{
-        padding:90px 35vw 200px 35vw ;
+        padding:90px 35vw 100px 35vw ;
         
 
     }
@@ -36,11 +36,12 @@
     }
 
     .contenedor-form{
-        padding:70px 25vw 100px 25vw ;
+        padding:70px 25vw 50px 25vw ;
+        
     }
 
     .boton-contacto{
-        padding:80px 25vw 80px 25vw ;
+        padding:20px 25vw 80px 25vw ;
     }
 
     .boton-arriba{
@@ -84,7 +85,7 @@
 @media (max-width: 814px) {
 
     .contenedor-form{
-        padding:60px 10vw 80px 10vw ;
+        padding:60px 10vw 40px 10vw ;
 
     }
     .accordion{
@@ -99,7 +100,7 @@
         padding: 10px;
     }
     .boton-contacto{
-        padding:20px 5vw 20px 5vw
+        padding:10px 5vw 20px 5vw
     }
     .boton-arriba{
         padding:20px 5vw 20px 5vw
@@ -118,6 +119,9 @@
 }
 
 @media (max-width: 612px) {
+    .accordion{
+        padding:20px 2vw 20px 2vw ;
+    }
     main .titulo1{
         padding: 15px;
         margin: 15px;
@@ -134,14 +138,14 @@
         }
     }
     .contenedor-form{
-        padding: 10px 5vw 50px 5vw ;
+        padding: 10px 5vw 20px 5vw ;
     }
 }
 
 @media (max-width: 436px) {
 
     .contenedor-form{
-        padding: 5px 2vw 20px 2vw ;
+        padding: 5px 2vw 5px 2vw ;
 
     }
     .col-12 {
@@ -203,9 +207,7 @@
         justify-content: center;
         align-items: center;
     }
-     .accordion{
-        padding:50px 3vw 50px 3vw ;
-    }
+     
     
     .formulario form {
         flex-direction: column;
