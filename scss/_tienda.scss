@@ -1,3 +1,11 @@
+.card :hover{
+    @include btn-hover;
+}
+
+.card{
+    @include box-theme;
+}
+
 
 
 

@@ -17,10 +17,11 @@ main {
     .formulario textarea{
         width: 100%;
         border-radius: 5px;
+        background-color: rgb(255, 217, 255);
     }
 
     .formulario input {
-        background-color: $color-claro;
+        background-color: rgb(255, 217, 255);
         border-radius: 5px;
         display: flex;
         justify-content: center center;
