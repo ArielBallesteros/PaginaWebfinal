@@ -1,6 +1,33 @@
 
 
 main {
+    .imagen-studio img{
+        margin: 2opx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .nosotros {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include box-theme;
+        background-color: #07101375;
+        color:$color-claro;
+        margin:20px;
+        padding: 20px;
+    }
+
+    .nosotros p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        max-width: 500px;
+    }
     
     
     .titulos {
