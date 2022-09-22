@@ -81,6 +81,17 @@
         width: 200px;
     }
 }
+@media (max-width: 980px){
+    .carousel-caption{
+        background-color: rgba(0, 0, 0, 0.5);
+        size: auto;
+        font-size: medium;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+    
+}
 
 @media (max-width: 814px) {
 

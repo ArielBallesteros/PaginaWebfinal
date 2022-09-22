@@ -340,6 +340,14 @@ main .button.bg text {
   border-radius: 5px;
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.675); }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  size: auto;
+  font-size: xx-large; }
+
+.carousel-caption h5 {
+  font-size: 40px; }
+
 @media (max-width: 2560px) {
   main .mapa {
     margin: 80px 35vw 80px 35vw;
@@ -381,6 +389,14 @@ main .button.bg text {
     height: 100px; }
   .formulario textarea {
     width: 200px; } }
+
+@media (max-width: 980px) {
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    size: auto;
+    font-size: medium; }
+  .carousel-caption h5 {
+    font-size: 20px; } }
 
 @media (max-width: 814px) {
   .contenedor-form {
