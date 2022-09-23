@@ -192,6 +192,10 @@ main .gallery-1 {
 main .gallery-1 img {
   width: 100%; }
 
+main .grid-container1 div :hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s; }
+
 main .nosotros {
   display: flex;
   justify-content: center;

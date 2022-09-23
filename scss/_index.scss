@@ -21,6 +21,10 @@ main {
         width: 100%;
     }
 
+    .grid-container1 div :hover {
+        @include grid-hover;
+     }
+
     .nosotros {
         display: flex;
         justify-content: center;
