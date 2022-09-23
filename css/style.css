@@ -431,7 +431,12 @@ main .button.bg text {
     height: 55px;
     padding: 5px; }
   .contenedor-form {
-    padding: 10px 5vw 20px 5vw; } }
+    padding: 10px 5vw 20px 5vw; }
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
 
 @media (max-width: 436px) {
   .contenedor-form {

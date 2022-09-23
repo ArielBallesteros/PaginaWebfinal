@@ -150,6 +150,13 @@
     .contenedor-form{
         padding: 10px 5vw 20px 5vw ;
     }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     
 }
 
 @media (max-width: 436px) {
