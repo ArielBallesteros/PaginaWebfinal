@@ -342,8 +342,7 @@ main .button.bg text {
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
-  size: auto;
-  font-size: xx-large; }
+  size: auto; }
 
 .carousel-caption h5 {
   font-size: 40px; }
