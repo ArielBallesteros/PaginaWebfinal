@@ -1,12 +1,24 @@
 
 
 main {
-    .imagen-studio img{
-        margin: 2opx;
+
+    .grid-container1{
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.594);
+        width: 100%;
         display: flex;
-        justify-content: center;
+        flex-direction: row;
         align-items: center;
-        width: 300px;
+        justify-content: center;
+        padding: 50px;
+    }
+    .gallery-1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap:30px;
+    }
+    .gallery-1 img{
+        width: 100%;
     }
 
     .nosotros {
@@ -46,12 +58,13 @@ main {
         margin: auto;
         background-color: rgba(0, 0, 0, 0.594);
         width: 100%;
-        min-height: 100vh;
+        min-height: 30vh;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 50px 8%;
     }
+
     .gallery{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
